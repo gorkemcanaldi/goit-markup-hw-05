@@ -656,14 +656,13 @@ header {
   margin-bottom: 16px;
 }
 
-.form-group {
-  min-width: 360px;
-  min-height: 58px;
+.form-groups {
   margin-bottom: 8px;
 
 }
 
 .label-group {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
