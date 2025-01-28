@@ -539,6 +539,8 @@ header {
   gap: 24px;
 }
 
+
+
 .email-foot {
   color: #ffffff;
   width: 264px;
@@ -582,7 +584,7 @@ header {
   margin-left: 16px;
 }
 
-.modal-window {
+.modal-window .modal-div {
   
   position: fixed;
   top: 0;
@@ -652,4 +654,20 @@ header {
   color:var(--navyblue);
   text-align: center;
   margin-bottom: 16px;
+}
+
+.form-group {
+  min-width: 360px;
+  min-height: 58px;
+  margin-bottom: 8px;
+
+}
+
+.label-group {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  color: #8E8F99;
+  width: 100%;
 }
