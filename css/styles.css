@@ -670,3 +670,7 @@ header {
   color: #8E8F99;
   width: 100%;
 }
+
+.input-group {
+  position: relative;
+}
