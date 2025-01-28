@@ -544,7 +544,7 @@
 }
 
  .email-foot {
-
+  color: #ffffff;
   width: 264px;
   height: 40px;
   border-radius: 4px;
@@ -563,7 +563,12 @@
  }
 
 
- .email-foot .but-foot {
+ .email-foot::placeholder{
+  color: #ffffff;
+ }
+
+ .but-foot{
+ 
   display: flex;
   align-items: center;
   min-width: 165px;
@@ -573,18 +578,11 @@
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
-
-
- }
-
- .but-foot{
- 
-
   height: 40px;
   color: #fff;
   border-radius: 4px;
   background-color: var(--iris);
-  padding: 24px 8ox;
+  
  
  
   
