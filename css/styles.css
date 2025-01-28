@@ -584,7 +584,7 @@ header {
   margin-left: 16px;
 }
 
-.modal-window .modal-div {
+.modal-window  {
   
   position: fixed;
   top: 0;
