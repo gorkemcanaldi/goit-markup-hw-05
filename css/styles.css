@@ -745,7 +745,7 @@ header {
 
 }
 
-.check-inp:checked + .label-check .span- {
+.check-inp:checked + .label-check .span-lab {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
@@ -755,7 +755,7 @@ header {
   color:#4d5ae5;
 }
 
-.buton-last {
+.modal-button {
   display: block;
   min-width: 169px;
   height: 56px;
